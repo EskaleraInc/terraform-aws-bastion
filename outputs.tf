@@ -28,7 +28,6 @@ output "private_instances_security_group" {
   value       = aws_security_group.private_instances_security_group.id
 }
 
-
 output "asg_name" {
   description = "The Autoscaling Group Name for the Bastion Host instances"
   value       = aws_autoscaling_group.bastion_auto_scaling_group.name
